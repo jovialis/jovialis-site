@@ -1,0 +1,51 @@
+body {
+	background-color: #1B1725;
+}
+
+#vertical-wrap {
+	height: 100vh;
+	display: flex;
+
+	align-items: center;
+}
+
+#left-content {
+	margin-left: 10%;
+}
+
+#github {
+	width: 40px;
+	height: 40px;
+
+	stroke-width: 1px;
+	stroke: #757780;
+
+	transition: stroke 0.2s, stroke-width 0.2s;
+}
+
+#github:hover {
+	stroke-width: 1.2px;
+	stroke: white;
+}
+
+h1 {
+	font-family: tarzana-narrow, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+
+	color: white;
+
+	margin: 15px 15px 15px 0;
+}
+
+h2 {
+	font-family: tarzana-narrow, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+
+	color: white;
+
+	margin: 15px 15px 75px 0;
+}
