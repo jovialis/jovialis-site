@@ -4,8 +4,12 @@ body {
 
 #vertical-wrap {
 	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -20,6 +24,7 @@ body {
 	stroke-width: 1px;
 	stroke: #757780;
 
+	-webkit-transition: stroke 0.2s, stroke-width 0.2s;
 	transition: stroke 0.2s, stroke-width 0.2s;
 }
 
